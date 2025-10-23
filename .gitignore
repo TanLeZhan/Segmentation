@@ -1,3 +1,7 @@
 Building___Water___Greenery_Scraper.ipynb
 cache/
 .venv
+geojson/
+*.png
+*.json
+*.geojson
