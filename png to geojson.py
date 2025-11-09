@@ -17,10 +17,10 @@ import json
 # --------------------------
 # User parameters
 # --------------------------
-input_img = "input.png"
+input_img = "nano_banana_output.png"
 binary_img = "binary_map.png"         # intermediate step (optional)
 bbox_geojson = "bounding_box.json"    # top-left, top-right, bottom-right, bottom-left
-threshold = 100                       # threshold for red detection
+threshold = 120                      # threshold for red detection
 simplify_tolerance_m = 2.0            # simplification tolerance (meters)
 min_area_ratio = 0.0001               # proportion of total image pixels for noise removal
 output_geojson = "output.geojson"     # final polygon output
